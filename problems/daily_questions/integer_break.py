@@ -1,4 +1,8 @@
 class Solution:
+    """
+    Author: Maharshi Gor
+    Date: 2023-10-06
+    """
     def integerBreak(self, n: int) -> int:
         """
         Given an integer n, break it into the sum of k positive integers,
@@ -14,7 +18,7 @@ class Solution:
         To find that value of x and y we divid the value n from 1 to mid and get
         the value of exponent. we will use the fraction of this division if it
         greater than or equal to 0.5 we will use direct integer value of the
-        division. If not we will take one minus.
+        division. If not we will take one minus of expoenent value.
 
         The idea here is to get:
 
